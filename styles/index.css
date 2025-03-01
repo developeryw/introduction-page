@@ -1,0 +1,119 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    min-width: 100%;
+    min-height: 100%;
+    background: linear-gradient(0deg, #325FFF 0%, white 20%, white 80%, #325FFF 100%);
+    justify-content: center;
+    align-items: center;
+}
+
+.ellipse {
+    width: 450px;
+    height: 145px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+#e1 {
+    transform: rotate(10deg);
+}
+
+#e2 {
+    background-color: yellow;
+    transform: rotate(-14.5deg);
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 0.25fr;
+}
+
+#intro-text {
+    display: grid;
+    grid-template-rows: 1fr 0.5fr 0.5fr;
+    padding: 0 20px 0 0;
+    width: 450px;
+    height: 100%;
+    font-family: 'Amiri Quran', sans-serif;
+}
+
+#intro-text h1 {
+    position: relative;
+    transform: rotate(4.5deg);
+    margin: 0;
+    font-size: 60px;
+    line-height: 100%;
+    font-weight: 100;
+    text-shadow: 0 4px 4px grey;
+}
+
+#intro-text img {
+    width: 70px;
+    height: 65%;
+}
+
+#image-wrap {
+    position: absolute;
+    padding-right: 5px;
+    width: 102.5%;
+    height: 80%;
+    text-align: right;
+}
+
+#intro-text p {
+    margin: 0;
+    line-height: 100%;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+#intro-text button {
+    margin: 0;
+    text-align: right;
+    border: none;
+    background-color: transparent;
+    color: #979797;
+    font-family: 'Amiri Quran', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    width: 100%;
+    margin: 0;
+    list-style: none;
+}
+
+nav li {
+    display: flex;
+    width: 120px;
+    height: 45px;
+    margin: 15px 0 15px 0;
+    font-family: 'Almarai', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li:hover {
+    background: linear-gradient(white 20%, #71FF7F);
+}
+
+nav a {
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+}
