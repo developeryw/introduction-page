@@ -5,5 +5,5 @@
   <h4>👀 레퍼런스 ✨</h4>
   <img src="https://img.wkorea.com/w/2022/07/style_62df5ade7e441-593x1200.jpg" height="350px">
   <img src="https://blog.kakaocdn.net/dn/cbVrNL/btrJItxRzmV/KpxYGidfJvYSneVQ7GmwM1/img.jpg" height="350px">
-  <img src="https://i.namu.wiki/i/V7fJpDyk-UQ1tl_VKzZy2pApdeaEVe1dqxjVSmJrRlLVdoqmYpg-Obyvc_UVzat7lJFhmoK7gkPfz64TnpmvKQ.webp" height="350px">
+  <img src="https://media.nudge-community.com/6821046" height="350px">
 </div>
