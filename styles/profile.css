@@ -1,144 +1,152 @@
 html {
-    height: 100%;
+  height: 100%;
 }
 
 body {
-    display: flex;
-    min-width: 100%;
-    min-height: 100%;
-    background: linear-gradient(0deg, #8E00FE 0%, white 20%, white 80%, #8E00FE 100%);
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  min-width: 100%;
+  min-height: 100%;
+  background: linear-gradient(
+    0deg,
+    #8e00fe 0%,
+    white 20%,
+    white 80%,
+    #8e00fe 100%
+  );
+  justify-content: center;
+  align-items: center;
 }
 
 #container {
-    display: flex;
-    position: relative;
-    width: 750px;
-    height: 505px;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  position: relative;
+  width: 750px;
+  height: 505px;
+  justify-content: center;
+  align-items: center;
 }
 
 #text-wrap {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 250px;
-    width: 755px;
-    height: 155px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 250px;
+  width: 755px;
+  height: 155px;
 }
 
 .text-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    width: 250px;
-    height: 155px;
-    background-color: #D9D9D9;
-    border: 1px solid black;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 150%;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  width: 250px;
+  height: 155px;
+  background-color: #d9d9d9;
+  border: 1px solid black;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
 }
 
 #birth {
-    font-family: "Martel", sans-serif;
+  font-family: "Martel", sans-serif;
+  line-height: 1.75;
 }
 
 #major {
-    font-family: "Kotta One", sans-serif;
-    margin-top: 15px;
+  font-family: "Kotta One", sans-serif;
+  margin-top: 15px;
 }
 
 #profile-image {
-    position: absolute;
-    width: 300px;
-    height: 400px;
-    border: 1px solid black;
-    border-radius: 50%;
-    box-shadow: 4px 4px;
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  border: 1px solid black;
+  border-radius: 50%;
+  box-shadow: 4px 4px;
+  object-fit: cover;
 }
 
 #name-wrap {
-    display: grid;
-    column-gap: 1fr;
-    position: absolute;
-    width: 700px;
-    height: 350px;
+  display: grid;
+  column-gap: 1fr;
+  position: absolute;
+  width: 700px;
+  height: 350px;
 }
 
 .name {
-    width: 300px;
-    height: 60px;
-    margin: 0;
-    font-family: "Press Start 2P", sans-serif;
-    font-weight: 400;
-    font-size: 60px;
-    color: white;
-    -webkit-text-stroke: 1px black;
-    text-shadow: 0 4px 4px grey;
+  width: 300px;
+  height: 60px;
+  margin: 0;
+  font-family: "Press Start 2P", sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  color: white;
+  -webkit-text-stroke: 1px black;
+  text-shadow: 0 4px 4px grey;
 }
 
 #last-name-wrap {
-    display: flex;
-    justify-content: right;
-    align-items: end;
+  display: flex;
+  justify-content: right;
+  align-items: end;
 }
 
 #last-name {
-    width: 180px;
-    margin-right: 70px;
+  width: 180px;
+  margin-right: 70px;
 }
 
 #heart-wrap {
-    display: grid;
-    grid-template-columns: 1fr 0.6fr;
-    position: absolute;
-    width: 520px;
-    height: 505px;
+  display: grid;
+  grid-template-columns: 1fr 0.6fr;
+  position: absolute;
+  width: 520px;
+  height: 505px;
 }
 
 #single-heart {
-    display: flex;
-    align-items: end;
+  display: flex;
+  align-items: end;
 }
 
 #heart3 {
-    width: 180px;
-    height: 180px;
-    transform: rotate(-15deg);
-    margin-left: 30px;
+  width: 180px;
+  height: 180px;
+  transform: rotate(-15deg);
+  margin-left: 30px;
 }
 
 #double-heart {
-    display: flex;
-    justify-content: center;
-    position: relative;
+  display: flex;
+  justify-content: center;
+  position: relative;
 }
 
 #big-heart {
-    position: absolute;
-    width: 250px;
-    height: 210px;
+  position: absolute;
+  width: 250px;
+  height: 210px;
 }
 
 #heart1 {
-    width: 200px;
-    height: 200px;
+  width: 200px;
+  height: 200px;
 }
 
 #small-heart {
-    display: flex;
-    justify-content: right;
-    align-items: end;
-    position: absolute;
-    width: 250px;
-    height: 210px;
+  display: flex;
+  justify-content: right;
+  align-items: end;
+  position: absolute;
+  width: 250px;
+  height: 210px;
 }
 
 #heart2 {
-    width: 150px;
-    height: 150px;
+  width: 150px;
+  height: 150px;
 }

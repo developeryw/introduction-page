@@ -1,123 +1,129 @@
 html {
-    height: 100%;
+  height: 100%;
 }
 
 body {
-    display: flex;
-    min-width: 100%;
-    min-height: 100%;
-    background: linear-gradient(0deg, #32FF3A 0%, white 20%, white 80%, #32FF3A 100%);
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  min-width: 100%;
+  min-height: 100%;
+  background: linear-gradient(
+    0deg,
+    #32ff3a 0%,
+    white 20%,
+    white 80%,
+    #32ff3a 100%
+  );
+  justify-content: center;
+  align-items: center;
 }
 
 main {
-    width: 1248px;
-    height: 720px;
-    position: relative;
+  width: 1248px;
+  height: 720px;
+  position: relative;
 }
 
 #gallery {
-    display: grid;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    row-gap: 37px;
-    column-gap: 27px;
+  display: grid;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  row-gap: 37px;
+  column-gap: 27px;
 }
 
 .photo {
-    position: relative;
-    width: 200px;
-    height: 250px;
-    border: 1px solid black;
-    box-shadow: 4px 4px;
+  position: relative;
+  width: 200px;
+  height: 250px;
+  border: 1px solid black;
+  box-shadow: 4px 4px;
 }
 
 .photo img {
-    width: 200px;
-    height: 250px;
-    object-fit: cover;
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
 }
 
 .photo:hover img {
-    filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 .festival-wrap {
-    display: none;
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: "Charm", sans-serif;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 125%;
-    color: white;
-    -webkit-text-stroke: 1px black;
-    text-align: center;
+  display: none;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Charm", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 125%;
+  color: white;
+  -webkit-text-stroke: 1px black;
+  text-align: center;
 }
 
 .photo:hover .festival-wrap {
-    display: block;
+  display: block;
 }
 
 #top-decorating {
-    display: grid;
-    position: absolute;
-    width: 1248px;
-    height: auto;
+  display: grid;
+  position: absolute;
+  width: 1248px;
+  height: auto;
 }
 
 #sticker {
-    display: flex;
-    position: absolute;
-    margin-top: 2%;
-    width: 100%;
-    justify-content: right;
+  display: flex;
+  position: absolute;
+  margin-top: 2%;
+  width: 100%;
+  justify-content: right;
 }
 
 #text-ellipse {
-    display: flex;
-    width: 298px;
-    height: 92px;
-    border: 1px solid black;
-    border-radius: 50%;
-    background-color: #0019FF;
-    transform: rotate(8.5deg);
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  width: 298px;
+  height: 92px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: #0019ff;
+  transform: rotate(8.5deg);
+  justify-content: center;
+  align-items: center;
 }
 
 #text-ellipse p {
-    margin: 0;
-    font-family: "Almendra", sans-serif;
-    font-size: 42px;
-    color: white;
-    -webkit-text-stroke: 1px black;
+  margin: 0;
+  font-family: "Almendra", sans-serif;
+  font-size: 42px;
+  color: white;
+  -webkit-text-stroke: 1px black;
 }
 
 #clover1 {
-    position: absolute;
-    width: 115px;
-    height: 120px;
-    margin-top: 2%;
-    transform: rotate(10deg);
+  position: absolute;
+  width: 115px;
+  height: 120px;
+  margin-top: 2%;
+  transform: rotate(10deg);
 }
 
 #bottom-decorating {
-    display: flex;
-    width: 1248px;
-    justify-content: right;
+  display: flex;
+  width: 1248px;
+  justify-content: right;
 }
 
 #clover2 {
-    position: absolute;
-    width: 172px;
-    height: 161px;
-    margin-top: 558px;
+  position: absolute;
+  width: 172px;
+  height: 161px;
+  margin-top: 558px;
 }

@@ -1,11 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>What I study</title>
-    <link rel="stylesheet" href="../styles/computer.css">
-</head>
-<body>
-    
-</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/computer.css" />
+  </head>
+  <body>
+    <main>
+      <div id="full-contents">
+        <div id="android-wrapper">
+          <img src="../images/android.png" id="android-icon" />
+          <img src="../images/sunglasses.png" id="sunglasses-icon" />
+        </div>
+        <div id="computer-wrap">
+          <img src="../images/balloon.png" id="balloon" />
+          <div id="computer-text">
+            <p id="stack">
+              #Python🐍 #C🩵 #Java☕️
+              <br />
+              #HTML🧡 #CSS💙 #JavaScript💛<br />
+              #React⚛️ #Spring🍃<br />
+              #Linux🐧<br />
+              #OracleLiveSQL❤️<br />
+              #Git💬 #GitHub🐈‍⬛<br />
+              #Figma🎨 #Notion📄<br />
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+
+  <script>
+    const wrapper = document.getElementById("android-wrapper");
+    wrapper.addEventListener("click", () => {
+      wrapper.classList.toggle("clicked");
+    });
+  </script>
 </html>
